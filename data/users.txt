@@ -1,0 +1,3 @@
+usr-001|||alice@example.com|||Alice Johnson|||555-0101|||CUSTOMER
+usr-002|||bob@example.com|||Bob Smith|||555-0102|||RIDER
+usr-003|||carol@example.com|||Carol Williams|||555-0103|||ADMIN
