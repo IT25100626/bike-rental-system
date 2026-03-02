@@ -1,3 +1,4 @@
 usr-001|||alice@example.com|||Alice Johnson|||555-0101|||CUSTOMER
 usr-002|||bob@example.com|||Bob Smith|||555-0102|||RIDER
 usr-003|||carol@example.com|||Carol Williams|||555-0103|||ADMIN
+b984e5c6-3c00-4875-b71b-8c505bc10d87|||methul@gmail.com|||methul|||0773455963|||RIDER

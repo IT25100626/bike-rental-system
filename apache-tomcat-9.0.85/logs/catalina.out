@@ -1,0 +1,105 @@
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+02-Mar-2026 17:56:04.928 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.85
+02-Mar-2026 17:56:04.929 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 5 2024 08:28:07 UTC
+02-Mar-2026 17:56:04.929 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.85.0
+02-Mar-2026 17:56:04.929 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+02-Mar-2026 17:56:04.929 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            26.3
+02-Mar-2026 17:56:04.929 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+02-Mar-2026 17:56:04.929 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/hasal/Library/Java/JavaVirtualMachines/openjdk-25.0.1/Contents/Home
+02-Mar-2026 17:56:04.929 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           25.0.1+8-27
+02-Mar-2026 17:56:04.929 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+02-Mar-2026 17:56:04.929 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/hasal/Downloads/Bike-Rental-and-Ride-Sharing/apache-tomcat-9.0.85
+02-Mar-2026 17:56:04.929 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/hasal/Downloads/Bike-Rental-and-Ride-Sharing/apache-tomcat-9.0.85
+02-Mar-2026 17:56:04.949 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+02-Mar-2026 17:56:04.949 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+02-Mar-2026 17:56:04.949 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+02-Mar-2026 17:56:04.949 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+02-Mar-2026 17:56:04.949 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+02-Mar-2026 17:56:04.949 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/hasal/Downloads/Bike-Rental-and-Ride-Sharing/apache-tomcat-9.0.85/conf/logging.properties
+02-Mar-2026 17:56:04.949 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+02-Mar-2026 17:56:04.949 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+02-Mar-2026 17:56:04.949 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+02-Mar-2026 17:56:04.949 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+02-Mar-2026 17:56:04.949 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+02-Mar-2026 17:56:04.949 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/hasal/Downloads/Bike-Rental-and-Ride-Sharing/apache-tomcat-9.0.85
+02-Mar-2026 17:56:04.949 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/hasal/Downloads/Bike-Rental-and-Ride-Sharing/apache-tomcat-9.0.85
+02-Mar-2026 17:56:04.949 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/hasal/Downloads/Bike-Rental-and-Ride-Sharing/apache-tomcat-9.0.85/temp
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by org.apache.tomcat.jni.Library in an unnamed module (file:/Users/hasal/Downloads/Bike-Rental-and-Ride-Sharing/apache-tomcat-9.0.85/lib/tomcat-jni.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+02-Mar-2026 17:56:04.956 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/hasal/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+02-Mar-2026 17:56:05.065 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+02-Mar-2026 17:56:05.079 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [222] milliseconds
+02-Mar-2026 17:56:05.093 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+02-Mar-2026 17:56:05.093 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.85]
+02-Mar-2026 17:56:05.095 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/hasal/Downloads/Bike-Rental-and-Ride-Sharing/apache-tomcat-9.0.85/webapps/docs]
+02-Mar-2026 17:56:05.185 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/hasal/Downloads/Bike-Rental-and-Ride-Sharing/apache-tomcat-9.0.85/webapps/docs] has finished in [89] ms
+02-Mar-2026 17:56:05.186 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/hasal/Downloads/Bike-Rental-and-Ride-Sharing/apache-tomcat-9.0.85/webapps/manager]
+02-Mar-2026 17:56:05.200 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/hasal/Downloads/Bike-Rental-and-Ride-Sharing/apache-tomcat-9.0.85/webapps/manager] has finished in [14] ms
+02-Mar-2026 17:56:05.200 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/hasal/Downloads/Bike-Rental-and-Ride-Sharing/apache-tomcat-9.0.85/webapps/examples]
+02-Mar-2026 17:56:05.318 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/hasal/Downloads/Bike-Rental-and-Ride-Sharing/apache-tomcat-9.0.85/webapps/examples] has finished in [118] ms
+02-Mar-2026 17:56:05.318 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/hasal/Downloads/Bike-Rental-and-Ride-Sharing/apache-tomcat-9.0.85/webapps/ROOT]
+02-Mar-2026 17:56:05.332 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/hasal/Downloads/Bike-Rental-and-Ride-Sharing/apache-tomcat-9.0.85/webapps/ROOT] has finished in [14] ms
+02-Mar-2026 17:56:05.332 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/hasal/Downloads/Bike-Rental-and-Ride-Sharing/apache-tomcat-9.0.85/webapps/host-manager]
+02-Mar-2026 17:56:05.351 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/hasal/Downloads/Bike-Rental-and-Ride-Sharing/apache-tomcat-9.0.85/webapps/host-manager] has finished in [19] ms
+02-Mar-2026 17:56:05.352 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+02-Mar-2026 17:56:05.363 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [283] milliseconds
+02-Mar-2026 18:04:55.695 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/hasal/Downloads/Bike-Rental-and-Ride-Sharing/apache-tomcat-9.0.85/webapps/bike-rental.war]
+02-Mar-2026 18:04:55.773 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/hasal/Downloads/Bike-Rental-and-Ride-Sharing/apache-tomcat-9.0.85/webapps/bike-rental.war] has finished in [78] ms
+02-Mar-2026 18:05:29.750 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+02-Mar-2026 18:05:29.751 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+02-Mar-2026 18:05:29.757 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+02-Mar-2026 18:05:29.774 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+02-Mar-2026 18:05:29.779 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+02-Mar-2026 18:05:29.909 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.85
+02-Mar-2026 18:05:29.909 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 5 2024 08:28:07 UTC
+02-Mar-2026 18:05:29.910 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.85.0
+02-Mar-2026 18:05:29.910 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+02-Mar-2026 18:05:29.910 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            26.3
+02-Mar-2026 18:05:29.910 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+02-Mar-2026 18:05:29.910 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/hasal/Library/Java/JavaVirtualMachines/openjdk-25.0.1/Contents/Home
+02-Mar-2026 18:05:29.910 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           25.0.1+8-27
+02-Mar-2026 18:05:29.910 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+02-Mar-2026 18:05:29.910 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/hasal/Downloads/Bike-Rental-and-Ride-Sharing/apache-tomcat-9.0.85
+02-Mar-2026 18:05:29.910 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/hasal/Downloads/Bike-Rental-and-Ride-Sharing/apache-tomcat-9.0.85
+02-Mar-2026 18:05:29.915 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+02-Mar-2026 18:05:29.915 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+02-Mar-2026 18:05:29.915 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+02-Mar-2026 18:05:29.915 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+02-Mar-2026 18:05:29.915 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+02-Mar-2026 18:05:29.915 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/hasal/Downloads/Bike-Rental-and-Ride-Sharing/apache-tomcat-9.0.85/conf/logging.properties
+02-Mar-2026 18:05:29.915 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+02-Mar-2026 18:05:29.915 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+02-Mar-2026 18:05:29.915 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+02-Mar-2026 18:05:29.915 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+02-Mar-2026 18:05:29.915 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+02-Mar-2026 18:05:29.915 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/hasal/Downloads/Bike-Rental-and-Ride-Sharing/apache-tomcat-9.0.85
+02-Mar-2026 18:05:29.915 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/hasal/Downloads/Bike-Rental-and-Ride-Sharing/apache-tomcat-9.0.85
+02-Mar-2026 18:05:29.915 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/hasal/Downloads/Bike-Rental-and-Ride-Sharing/apache-tomcat-9.0.85/temp
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by org.apache.tomcat.jni.Library in an unnamed module (file:/Users/hasal/Downloads/Bike-Rental-and-Ride-Sharing/apache-tomcat-9.0.85/lib/tomcat-jni.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+02-Mar-2026 18:05:29.919 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/hasal/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+02-Mar-2026 18:05:30.026 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+02-Mar-2026 18:05:30.036 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [181] milliseconds
+02-Mar-2026 18:05:30.049 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+02-Mar-2026 18:05:30.049 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.85]
+02-Mar-2026 18:05:30.053 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/hasal/Downloads/Bike-Rental-and-Ride-Sharing/apache-tomcat-9.0.85/webapps/bike-rental.war]
+02-Mar-2026 18:05:30.178 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/hasal/Downloads/Bike-Rental-and-Ride-Sharing/apache-tomcat-9.0.85/webapps/bike-rental.war] has finished in [123] ms
+02-Mar-2026 18:05:30.178 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/hasal/Downloads/Bike-Rental-and-Ride-Sharing/apache-tomcat-9.0.85/webapps/docs]
+02-Mar-2026 18:05:30.186 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/hasal/Downloads/Bike-Rental-and-Ride-Sharing/apache-tomcat-9.0.85/webapps/docs] has finished in [8] ms
+02-Mar-2026 18:05:30.186 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/hasal/Downloads/Bike-Rental-and-Ride-Sharing/apache-tomcat-9.0.85/webapps/manager]
+02-Mar-2026 18:05:30.195 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/hasal/Downloads/Bike-Rental-and-Ride-Sharing/apache-tomcat-9.0.85/webapps/manager] has finished in [9] ms
+02-Mar-2026 18:05:30.195 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/hasal/Downloads/Bike-Rental-and-Ride-Sharing/apache-tomcat-9.0.85/webapps/examples]
+02-Mar-2026 18:05:30.251 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/hasal/Downloads/Bike-Rental-and-Ride-Sharing/apache-tomcat-9.0.85/webapps/examples] has finished in [56] ms
+02-Mar-2026 18:05:30.251 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/hasal/Downloads/Bike-Rental-and-Ride-Sharing/apache-tomcat-9.0.85/webapps/ROOT]
+02-Mar-2026 18:05:30.256 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/hasal/Downloads/Bike-Rental-and-Ride-Sharing/apache-tomcat-9.0.85/webapps/ROOT] has finished in [5] ms
+02-Mar-2026 18:05:30.256 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/hasal/Downloads/Bike-Rental-and-Ride-Sharing/apache-tomcat-9.0.85/webapps/host-manager]
+02-Mar-2026 18:05:30.261 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/hasal/Downloads/Bike-Rental-and-Ride-Sharing/apache-tomcat-9.0.85/webapps/host-manager] has finished in [5] ms
+02-Mar-2026 18:05:30.262 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+02-Mar-2026 18:05:30.266 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [228] milliseconds

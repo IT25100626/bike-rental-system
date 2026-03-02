@@ -1,0 +1,18 @@
+/* Bike Rental & Ride-Sharing - Shared UI styles (User Interface Design) */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+main {
+    flex: 1;
+}
+.navbar-brand {
+    font-weight: 600;
+}
+.table th {
+    white-space: nowrap;
+}
+.btn-group-actions .btn {
+    margin-right: 0.25rem;
+}
