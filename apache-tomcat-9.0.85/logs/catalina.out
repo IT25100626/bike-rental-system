@@ -103,3 +103,11 @@ WARNING: Restricted methods will be blocked in a future release unless native ac
 02-Mar-2026 18:05:30.261 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/hasal/Downloads/Bike-Rental-and-Ride-Sharing/apache-tomcat-9.0.85/webapps/host-manager] has finished in [5] ms
 02-Mar-2026 18:05:30.262 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
 02-Mar-2026 18:05:30.266 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [228] milliseconds
+02-Mar-2026 18:25:11.032 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/bike-rental]
+02-Mar-2026 18:25:11.082 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/hasal/Downloads/Bike-Rental-and-Ride-Sharing/apache-tomcat-9.0.85/webapps/bike-rental.war]
+02-Mar-2026 18:25:11.137 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/hasal/Downloads/Bike-Rental-and-Ride-Sharing/apache-tomcat-9.0.85/webapps/bike-rental.war] has finished in [55] ms
+02-Mar-2026 18:26:14.077 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+02-Mar-2026 18:26:14.078 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+02-Mar-2026 18:26:14.086 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+02-Mar-2026 18:26:14.106 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+02-Mar-2026 18:26:14.109 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]

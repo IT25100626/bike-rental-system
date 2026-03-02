@@ -73,6 +73,80 @@ Deploy `target/bike-rental.war` to a Servlet 4.0 container (e.g. **Apache Tomcat
 
 **Data file location**: By default the app uses the directory `data/` under the JVM working directory. When running from IntelliJ/Tomcat, the working directory is often the project root, so `data/users.txt` in the project is used. To override (e.g. on Tomcat), set JVM option: `-Ddata.dir=/absolute/path/to/data`.
 
+### 2.1 Example – run on macOS (terminal)
+
+1. Go to the project:
+
+   ```bash
+   cd "/Users/hasal/Downloads/Bike-Rental-and-Ride-Sharing"
+   ```
+
+2. Build the app:
+
+   ```bash
+   mvn clean package
+   ```
+
+3. Deploy the WAR into Tomcat:
+
+   ```bash
+   cp target/bike-rental.war "apache-tomcat-9.0.85/webapps/"
+   ```
+
+4. (Recommended) Point the app to the `data/users.txt` in this project:
+
+   ```bash
+   export CATALINA_OPTS="-Ddata.dir=/Users/hasal/Downloads/Bike-Rental-and-Ride-Sharing/data"
+   ```
+
+5. Start Tomcat:
+
+   ```bash
+   "apache-tomcat-9.0.85/bin/startup.sh"
+   ```
+
+6. Open the app in your browser:
+
+   - `http://localhost:8080/bike-rental/`
+
+### 2.2 Example – run on Windows (Command Prompt / PowerShell)
+
+Assuming this repo is at `C:\Users\<you>\Downloads\Bike-Rental-and-Ride-Sharing` and you use the included `apache-tomcat-9.0.85`:
+
+1. Open **Command Prompt** or **PowerShell** and go to the project:
+
+   ```bash
+   cd "C:\Users\<you>\Downloads\Bike-Rental-and-Ride-Sharing"
+   ```
+
+2. Build the app:
+
+   ```bash
+   mvn clean package
+   ```
+
+3. Deploy the WAR into Tomcat:
+
+   ```bash
+   copy target\bike-rental.war apache-tomcat-9.0.85\webapps\
+   ```
+
+4. (Recommended) Point the app to the `data\users.txt` in this project:
+
+   ```bash
+   set CATALINA_OPTS=-Ddata.dir=C:\Users\<you>\Downloads\Bike-Rental-and-Ride-Sharing\data
+   ```
+
+5. Start Tomcat:
+
+   ```bash
+   apache-tomcat-9.0.85\bin\startup.bat
+   ```
+
+6. Open the app in your browser:
+
+   - `http://localhost:8080/bike-rental/`
+
 ### 3. Run from IntelliJ IDEA
 
 1. **Import as Maven project**: File → Open → select the project folder (with `pom.xml`).
